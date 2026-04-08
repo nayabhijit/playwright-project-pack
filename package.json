@@ -1,0 +1,37 @@
+{
+  "name": "my-first-playwright-project",
+  "version": "1.0.0",
+  "description": "Learning Playwright basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": " npx playwright test --headed",
+    "test:debug": " npx playwright test --debug",
+    "test:ui": " npx playwright test --ui",
+    "test:chromium": " npx playwright test --project chromium",
+    "test:firefox": " npx playwright test --project firefox",
+    "test:webkit": " npx playwright test --project webkit",
+    "test:mobile": "npx playwright test --project 'Mobile Chrome'",
+    "test:saucedemo": "TEST_SITE=saucedemo npx playwright test tests/saucedemo.spec.ts --headed",
+    "test: todomvc": "TEST_SITE=todomvc npx playwright test tests/todomvc.spec.ts --headed",
+    "test:parallel": "npx playwright test --workers=4",
+    "test:serial": "npx playwright test --workers=1",
+    "test:report": "npx playwright show-report",
+    "codegen": "npx playwright codegen",
+    "codegen:saucedemo": "TEST_SITE=playwright codegen https://www.saucedemo.com",
+    "codegen:todomvc": "TEST_SITE= playwright codegen https://demo.playwright.dev/todomvc",
+    "install": "npx playwright install"
+  },
+  "keywords": ["playwright", "testing", "automation", "e2e"],
+  "author": "Abhijit Nayak",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security",
+    "typescript": "^6.0.2"
+  }
+}
