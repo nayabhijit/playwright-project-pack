@@ -22,11 +22,18 @@
     "codegen:todomvc": "TEST_SITE= playwright codegen https://demo.playwright.dev/todomvc",
     "install": "npx playwright install"
   },
-  "keywords": ["playwright", "testing", "automation", "e2e"],
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e"
+  ],
   "author": "Abhijit Nayak",
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
+    "@azure/identity": "^4.14.0",
+    "@azure/playwright": "^1.1.6",
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.5.2"
   },

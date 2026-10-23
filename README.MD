@@ -39,20 +39,5 @@ npm run test:firefox
 ```
 ```
  
-├── tests/ # Test files
- 
-│ ├── saucedemo.spec.ts
- 
-│ └── todomvc.spec.ts
- 
-├── page-objects/ # Page object models
- 
-├── test-data/ # Test data
- 
-├── utils/ # Helper functions
- 
-│ └── test-data.ts
- 
-├── .env.example # Environment variables template
 
 

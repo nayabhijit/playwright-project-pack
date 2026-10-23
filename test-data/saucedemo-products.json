@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": " Sauce Labs Backpack",
+        "price": "$29.99",
+        "expectedInCart": true
+    },
+    {
+        "id":2,
+        "name": "Sauce Labs Bike Light",
+        "price": "$9.99",
+        "expectedInCart":true
+    },
+    {
+        "id":3,
+        "name":"Sauce Labs Bolt T-Shirt",
+        "price":"$15.99",
+        "expectedInCart":true
+    }
+]
