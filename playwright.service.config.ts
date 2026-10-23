@@ -4,6 +4,7 @@ import { DefaultAzureCredential } from '@azure/identity';
 import config from './playwright.config';
 import * as dotenv from 'dotenv';
 
+dotenv.config();
 /* Learn more about service configuration at https://aka.ms/pww/docs/config */
 export default defineConfig(
   config,
@@ -13,6 +14,7 @@ export default defineConfig(
     os: ServiceOS.LINUX,
     credential: new DefaultAzureCredential(),
   }),
+  
   {
     /*
     Enable Playwright Workspaces Reporter:
